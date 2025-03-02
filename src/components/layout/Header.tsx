@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,13 +33,14 @@ export const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center">
-          <a href="#" className="text-2xl font-bold text-foreground flex items-center">
+          <Link to="/" className="text-xl font-bold text-foreground flex items-center">
             <img 
               src="/lovable-uploads/212f79a5-f3c6-48e2-ad0e-dc40072171e1.png" 
               alt="NotemateAI Logo" 
-              className="h-8 mr-2" 
+              className="h-6 mr-2" 
             />
-          </a>
+            <span className="text-lg">Notemate<span className="text-primary">AI</span></span>
+          </Link>
         </div>
 
         {/* Desktop Navigation */}

@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -128,7 +129,7 @@ html {
 }
 
 .bg-hero-gradient {
-  background-image: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: radial-gradient(circle at 50% 0%, rgba(1, 22, 39, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 /* Custom border styles */
@@ -143,5 +144,41 @@ html {
 
 .btn-hover-effect:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 10px 25px -5px rgba(1, 22, 39, 0.3);
+}
+
+/* Logo styles */
+.logo-text {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Page transitions */
+.page-transition {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Legal pages styling */
+.prose {
+  @apply text-foreground;
+}
+
+.prose h2 {
+  @apply text-foreground font-semibold;
+}
+
+.prose p {
+  @apply text-muted-foreground mb-4;
+}
+
+.prose ul {
+  @apply mb-6;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.prose a {
+  @apply text-primary hover:underline;
 }
