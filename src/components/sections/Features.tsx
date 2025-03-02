@@ -1,6 +1,6 @@
-
 import { FileText, Youtube, CheckCircle, BarChart3 } from "lucide-react";
 import FeatureCard from "../ui-custom/FeatureCard";
+import AnimatedImage from "../ui-custom/AnimatedImage";
 
 export const Features = () => {
   const features = [
