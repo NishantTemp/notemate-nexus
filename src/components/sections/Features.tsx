@@ -1,4 +1,5 @@
-import { FileText, Youtube, CheckCircle, BarChart3 } from "lucide-react";
+
+import { FileText, Youtube, CheckCircle, BarChart3, Headphones } from "lucide-react";
 import FeatureCard from "../ui-custom/FeatureCard";
 import AnimatedImage from "../ui-custom/AnimatedImage";
 
@@ -6,27 +7,33 @@ export const Features = () => {
   const features = [
     {
       title: "PDF & Slides Conversion",
-      description: "Upload your PDF documents or slide presentations to instantly generate relevant quizzes based on the content.",
+      description: "Upload your documents or presentations to instantly generate comprehensive quizzes tailored to your study materials.",
       icon: FileText,
       badge: "Instant Parsing"
     },
     {
       title: "YouTube Integration",
-      description: "Simply paste a YouTube URL and NotemateAI will analyze the video content to create targeted quiz questions.",
+      description: "Transform any educational video into a structured quiz by simply pasting a YouTube URL. Perfect for video lectures.",
       icon: Youtube,
       badge: "Smart Analysis"
     },
     {
       title: "Multiple Question Options",
-      description: "Choose between 10, 20, or 30 question quizzes depending on your study needs and material depth.",
+      description: "Customize your learning experience with flexible quiz lengths of 10, 20, or 30 questions to match your study session needs.",
       icon: CheckCircle,
       badge: "Flexible"
     },
     {
-      title: "Results & Summary",
-      description: "Receive immediate results with a comprehensive summary of your performance and knowledge gaps.",
+      title: "Performance Analytics",
+      description: "Track your progress with detailed insights that identify knowledge gaps and suggest areas for focused improvement.",
       icon: BarChart3,
       badge: "Actionable Insights"
+    },
+    {
+      title: "Audio Lectures",
+      description: "Coming Soon: Listen to AI-generated audio lectures synthesized from your learning materials. Perfect for on-the-go studying.",
+      icon: Headphones,
+      badge: "Coming Soon"
     }
   ];
 
@@ -34,13 +41,13 @@ export const Features = () => {
     <section id="features" className="py-20 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4">Powerful Features</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4">Advanced Study Features</h2>
           <p className="text-muted-foreground max-w-2xl">
-            NotemateAI comes with everything you need to generate meaningful quizzes from your learning materials.
+            NotemateAI transforms how you study with intelligent tools designed to enhance comprehension and retention.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {features.map((feature, index) => (
             <div key={index} className="opacity-0 animate-fade-in" style={{ animationDelay: `${index * 100 + 100}ms`, animationFillMode: 'forwards' }}>
               <FeatureCard
@@ -53,7 +60,7 @@ export const Features = () => {
           ))}
         </div>
         
-        <div className="mt-20 bg-secondary/50 border border-border/60 rounded-2xl p-8 md:p-12">
+        <div className="mt-12 bg-secondary/50 border border-border/60 rounded-2xl p-8 md:p-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="opacity-0 animate-slide-in-left" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
               <h3 className="text-2xl md:text-3xl font-semibold mb-4">

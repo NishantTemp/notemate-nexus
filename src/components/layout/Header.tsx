@@ -52,6 +52,9 @@ export const Header = () => {
           <a href="#pricing" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
             Pricing
           </a>
+          <a href="#faq" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+            FAQ
+          </a>
         </nav>
 
         <div className="hidden md:flex items-center">
@@ -97,6 +100,13 @@ export const Header = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Pricing
+            </a>
+            <a
+              href="#faq"
+              className="text-foreground/80 hover:text-primary p-2 rounded-md transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              FAQ
             </a>
             <div className="pt-2">
               <Button className="w-full justify-center">

@@ -14,17 +14,17 @@ export const Hero = () => {
           <Badge className="mb-6 animate-fade-in">Introducing NotemateAI</Badge>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight md:leading-tight lg:leading-tight max-w-4xl mx-auto mb-6 animate-fade-in animation-delay-100">
-            Generate Quizzes <span className="text-primary">Instantly</span> from Any Learning Material
+            The Ultimate <span className="text-primary">AI-Powered</span> Study Companion
           </h1>
           
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in animation-delay-200">
-            Transform your YouTube videos, PDFs, and slides into interactive quizzes in seconds. 
-            Learn smarter, not harder.
+            Transform YouTube videos, PDFs, and presentations into interactive quizzes and audio lectures. 
+            Maximize your learning potential with intelligent study tools.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-6 animate-fade-in animation-delay-300">
             <Button size="lg" className="btn-hover-effect">
-              Try It Now For Free
+              Start Learning Smarter
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
@@ -75,11 +75,9 @@ export const Hero = () => {
             
             <div className="absolute bottom-16 -left-6 md:left-16 animate-float animation-delay-1000">
               <div className="glass p-4 rounded-lg shadow-lg max-w-[180px]">
-                <div className="flex items-center gap-2 mb-2">
-                  <div className="w-4 h-4 bg-primary rounded-full"></div>
-                  <span className="text-sm font-medium">Results Ready</span>
-                </div>
-                <p className="text-xs text-muted-foreground">View your personalized summary</p>
+                <div className="w-4 h-4 bg-primary rounded-full"></div>
+                <span className="text-sm font-medium">Audio Lecture</span>
+                <p className="text-xs text-muted-foreground mt-1">Coming Soon: Listen to AI-generated lectures on the go</p>
               </div>
             </div>
           </div>
