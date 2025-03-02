@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, ArrowRight } from "lucide-react";
 import AnimatedImage from "../ui-custom/AnimatedImage";
 import Badge from "../ui-custom/Badge";
 
@@ -17,20 +17,21 @@ export const Hero = () => {
             Generate Quizzes <span className="text-primary">Instantly</span> from Any Learning Material
           </h1>
           
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in animation-delay-200">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6 animate-fade-in animation-delay-200">
             Transform your YouTube videos, PDFs, and slides into interactive quizzes in seconds. 
             Learn smarter, not harder.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in animation-delay-300">
+          <div className="flex flex-col sm:flex-row gap-4 mb-4 animate-fade-in animation-delay-300">
             <Button size="lg" className="btn-hover-effect">
-              Try It Now
-              <ChevronRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button size="lg" variant="outline">
-              See How It Works
+              Try It Now For Free
+              <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
+          
+          <p className="text-sm text-muted-foreground mb-16 animate-fade-in animation-delay-400">
+            No credit card required • 5 free quizzes • Takes only 30 seconds
+          </p>
           
           <div className="relative w-full max-w-5xl mx-auto">
             {/* Glass dashboard frame */}

@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ArrowRight } from "lucide-react";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,12 +51,9 @@ export const Header = () => {
           </a>
         </nav>
 
-        <div className="hidden md:flex items-center space-x-4">
-          <Button variant="outline" size="sm">
-            Sign In
-          </Button>
+        <div className="hidden md:flex items-center">
           <Button size="sm" className="btn-hover-effect">
-            Get Started
+            Go To App <ArrowRight className="ml-1 h-4 w-4" />
           </Button>
         </div>
 
@@ -98,12 +95,9 @@ export const Header = () => {
             >
               Pricing
             </a>
-            <div className="flex flex-col space-y-2 pt-2">
-              <Button variant="outline" className="w-full justify-center">
-                Sign In
-              </Button>
+            <div className="pt-2">
               <Button className="w-full justify-center">
-                Get Started
+                Go To App <ArrowRight className="ml-1 h-4 w-4" />
               </Button>
             </div>
           </nav>
