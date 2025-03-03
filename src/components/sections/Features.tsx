@@ -1,5 +1,5 @@
 
-import { FileText, Youtube, CheckCircle, BarChart3, Headphones } from "lucide-react";
+import { FileText, Youtube, CheckCircle, BarChart3, Headphones, Mic, Video, MessageSquare } from "lucide-react";
 import FeatureCard from "../ui-custom/FeatureCard";
 import AnimatedImage from "../ui-custom/AnimatedImage";
 
@@ -33,6 +33,18 @@ export const Features = () => {
       title: "Audio Lectures",
       description: "Coming Soon: Listen to AI-generated audio lectures synthesized from your learning materials. Perfect for on-the-go studying.",
       icon: Headphones,
+      badge: "Coming Soon"
+    },
+    {
+      title: "Audio/Video Direct Upload",
+      description: "Coming Soon: Upload your lectures, podcasts, or video content directly to generate comprehensive study materials and quizzes.",
+      icon: Mic,
+      badge: "Coming Soon"
+    },
+    {
+      title: "Interactive Chat Interface",
+      description: "Coming Soon: Engage with a sophisticated chat system that allows you to discuss and query your study materials with proper citations.",
+      icon: MessageSquare,
       badge: "Coming Soon"
     }
   ];

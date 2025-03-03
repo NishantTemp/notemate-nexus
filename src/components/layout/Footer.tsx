@@ -12,9 +12,8 @@ export const Footer = () => {
               <img 
                 src="/lovable-uploads/212f79a5-f3c6-48e2-ad0e-dc40072171e1.png" 
                 alt="NotemateAI Logo" 
-                className="h-8 mr-2" 
+                className="h-6" 
               />
-              <span>Notemate<span className="text-primary">AI</span></span>
             </Link>
             <p className="mt-4 text-muted-foreground max-w-md">
               Generate quizzes in seconds from your learning materials. 
