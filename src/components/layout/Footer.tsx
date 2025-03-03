@@ -11,7 +11,7 @@ export const Footer = () => {
             <Link to="/" className="text-xl font-bold text-foreground flex items-center">
               <img 
                 src="/lovable-uploads/212f79a5-f3c6-48e2-ad0e-dc40072171e1.png" 
-                alt="NotemateAI Logo" 
+                alt="Blackblue Logo" 
                 className="h-6" 
               />
             </Link>
@@ -66,7 +66,7 @@ export const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-border/40 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} NotemateAI. All rights reserved.
+            © {new Date().getFullYear()} Blackblue. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="text-muted-foreground hover:text-primary">

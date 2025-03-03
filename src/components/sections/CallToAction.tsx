@@ -11,7 +11,7 @@ export const CallToAction = () => {
             Choose Your Learning Plan
           </h2>
           <p className="text-muted-foreground max-w-2xl">
-            Select the plan that fits your study needs and transform how you learn with NotemateAI.
+            Select the plan that fits your study needs and transform how you learn with Blackblue.
           </p>
         </div>
         

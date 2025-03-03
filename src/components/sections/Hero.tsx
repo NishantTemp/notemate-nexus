@@ -11,7 +11,7 @@ export const Hero = () => {
       
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center">
-          <Badge className="mb-6 animate-fade-in">Introducing NotemateAI</Badge>
+          <Badge className="mb-6 animate-fade-in">Introducing Blackblue</Badge>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight md:leading-tight lg:leading-tight max-w-4xl mx-auto mb-6 animate-fade-in animation-delay-100">
             The Ultimate <span className="text-primary">AI-Powered</span> Study Companion
@@ -55,7 +55,7 @@ export const Hero = () => {
             <div className="glass rounded-2xl overflow-hidden shadow-2xl">
               <AnimatedImage
                 src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="NotemateAI Dashboard"
+                alt="Blackblue Dashboard"
                 className="w-full rounded-lg opacity-90"
                 animation="scale-in"
                 delay="animation-delay-500"
