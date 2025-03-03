@@ -27,7 +27,7 @@ const Index = () => {
     window.addEventListener('scroll', handleScroll);
     
     // Initial check on load
-    handleScroll();
+    setTimeout(handleScroll, 300);
     
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -35,7 +35,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-subtle-gradient">
+    <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted/30">
       <Header />
       <main>
         <Hero />
