@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -15,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 201 98% 41%;  /* #0EA5E9 - Ocean Blue */
+    --primary: 262 83% 74%;  /* #9b87f5 - Vibrant Purple */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 220 14% 96%;
@@ -24,7 +25,7 @@
     --muted: 220 14% 96%;
     --muted-foreground: 220 8% 46%;
 
-    --accent: 199 89% 48%;
+    --accent: 273 68% 59%;  /* #8B5CF6 - Vivid Purple */
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84% 60%;
@@ -32,7 +33,7 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 201 98% 41%;
+    --ring: 262 83% 74%;
 
     --radius: 0.75rem;
   }
@@ -47,7 +48,7 @@
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 201 98% 41%;  /* #0EA5E9 - Ocean Blue */
+    --primary: 262 83% 74%;  /* #9b87f5 - Vibrant Purple */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 217 33% 17%;
@@ -56,7 +57,7 @@
     --muted: 217 33% 17%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 199 89% 48%;
+    --accent: 273 68% 59%;  /* #8B5CF6 - Vivid Purple */
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84% 60%;
@@ -64,7 +65,7 @@
 
     --border: 217 33% 17%;
     --input: 217 33% 17%;
-    --ring: 201 98% 41%;
+    --ring: 262 83% 74%;
   }
 }
 
@@ -128,7 +129,7 @@ html {
 }
 
 .bg-hero-gradient {
-  background-image: radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: radial-gradient(circle at 50% 0%, rgba(155, 135, 245, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 /* Custom border styles */
@@ -143,7 +144,7 @@ html {
 
 .btn-hover-effect:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(14, 165, 233, 0.3);
+  box-shadow: 0 10px 25px -5px rgba(155, 135, 245, 0.4);
 }
 
 /* Logo styles */
@@ -180,4 +181,42 @@ html {
 
 .prose a {
   @apply text-primary hover:underline;
+}
+
+/* Call-to-action highlight */
+.cta-highlight {
+  @apply relative overflow-hidden;
+}
+
+.cta-highlight::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 opacity-70 transition-opacity;
+}
+
+.cta-highlight:hover::before {
+  @apply opacity-100;
+}
+
+/* Pricing card highlight */
+.pricing-card-highlight {
+  @apply relative overflow-hidden border-primary;
+  animation: pulse-border 3s infinite alternate;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: rgb(155, 135, 245, 0.5);
+  }
+  100% {
+    border-color: rgb(155, 135, 245, 1);
+  }
+}
+
+/* Feature card hover */
+.feature-card-hover {
+  @apply transition-all duration-300;
+}
+
+.feature-card-hover:hover {
+  @apply transform scale-105 shadow-lg;
 }

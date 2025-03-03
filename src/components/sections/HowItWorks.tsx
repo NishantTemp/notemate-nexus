@@ -6,26 +6,26 @@ export const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Upload Your Materials",
-      description: "Simply upload your PDF, slides, or paste a YouTube URL.",
+      title: "Upload Any Learning Material",
+      description: "Simply upload PDFs, presentations, or paste a YouTube URL. Our AI does the rest.",
       image: "https://images.unsplash.com/photo-1586282391129-76a6df230234?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       number: "02",
-      title: "Configure Your Quiz",
-      description: "Select the number of questions (10, 20, or 30) and optional settings.",
+      title: "Customize Your Experience",
+      description: "Choose quiz length, difficulty level, and question types to match your learning needs.",
       image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       number: "03",
-      title: "Generate & Take Quiz",
-      description: "Our AI generates relevant questions based on your content.",
+      title: "Generate In Seconds",
+      description: "Our advanced AI analyzes your content and creates high-quality, relevant questions instantly.",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       number: "04",
-      title: "Review Results & Summary",
-      description: "Get immediate feedback and a detailed performance analysis.",
+      title: "Track Your Mastery",
+      description: "Get detailed insights on your knowledge gaps and track your progress over time.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ];
@@ -34,9 +34,9 @@ export const HowItWorks = () => {
     <section id="how-it-works" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4">How NotemateAI Works</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4">How Blackblue Works</h2>
           <p className="text-muted-foreground max-w-2xl">
-            From upload to results in just a few clicks. Our streamlined process makes quiz generation effortless.
+            Four simple steps to transform your study materials into powerful learning tools.
           </p>
         </div>
 
@@ -63,9 +63,11 @@ export const HowItWorks = () => {
                 </div>
                 
                 {index === steps.length - 1 && (
-                  <Button className="mt-6 btn-hover-effect">
-                    Try It Now
-                  </Button>
+                  <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
+                    <Button className="mt-6 btn-hover-effect">
+                      Try It Now
+                    </Button>
+                  </a>
                 )}
               </div>
               

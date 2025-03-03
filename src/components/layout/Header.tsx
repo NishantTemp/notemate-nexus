@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Menu, X, ArrowRight, Mic, Video, MessageSquare } from "lucide-react";
+import { Menu, X, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
@@ -37,7 +37,7 @@ export const Header = () => {
             <img 
               src="/lovable-uploads/212f79a5-f3c6-48e2-ad0e-dc40072171e1.png" 
               alt="Blackblue Logo" 
-              className="h-5" 
+              className="h-4" 
             />
           </Link>
         </div>
@@ -59,9 +59,11 @@ export const Header = () => {
         </nav>
 
         <div className="hidden md:flex items-center">
-          <Button size="sm" className="btn-hover-effect">
-            Go To App <ArrowRight className="ml-1 h-4 w-4" />
-          </Button>
+          <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
+            <Button size="sm" className="btn-hover-effect">
+              Login to Dashboard <ArrowRight className="ml-1 h-4 w-4" />
+            </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -110,9 +112,11 @@ export const Header = () => {
               FAQ
             </a>
             <div className="pt-2">
-              <Button className="w-full justify-center">
-                Go To App <ArrowRight className="ml-1 h-4 w-4" />
-              </Button>
+              <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
+                <Button className="w-full justify-center">
+                  Login to Dashboard <ArrowRight className="ml-1 h-4 w-4" />
+                </Button>
+              </a>
             </div>
           </nav>
         </div>

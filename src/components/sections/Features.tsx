@@ -6,44 +6,44 @@ import AnimatedImage from "../ui-custom/AnimatedImage";
 export const Features = () => {
   const features = [
     {
-      title: "PDF & Slides Conversion",
-      description: "Upload your documents or presentations to instantly generate comprehensive quizzes tailored to your study materials.",
+      title: "PDF & Slides Processing",
+      description: "Turn any document or presentation into interactive quizzes in seconds. Perfect for lecture notes and textbooks.",
       icon: FileText,
-      badge: "Instant Parsing"
+      badge: "Instant Results"
     },
     {
-      title: "YouTube Integration",
-      description: "Transform any educational video into a structured quiz by simply pasting a YouTube URL. Perfect for video lectures.",
+      title: "YouTube Video Analysis",
+      description: "Convert educational videos into comprehensive quizzes with a single URL. Extract knowledge from any video lecture.",
       icon: Youtube,
-      badge: "Smart Analysis"
+      badge: "Smart Parsing"
     },
     {
-      title: "Multiple Question Options",
-      description: "Customize your learning experience with flexible quiz lengths of 10, 20, or 30 questions to match your study session needs.",
+      title: "Customizable Quizzes",
+      description: "Choose from 10, 20, or 30 questions with adjustable difficulty levels to match your learning stage.",
       icon: CheckCircle,
-      badge: "Flexible"
+      badge: "Personalized"
     },
     {
-      title: "Performance Analytics",
-      description: "Track your progress with detailed insights that identify knowledge gaps and suggest areas for focused improvement.",
+      title: "Learning Analytics",
+      description: "Track knowledge gaps, monitor progress, and receive personalized study recommendations based on your performance.",
       icon: BarChart3,
-      badge: "Actionable Insights"
+      badge: "Data-Driven"
     },
     {
-      title: "Audio Lectures",
-      description: "Coming Soon: Listen to AI-generated audio lectures synthesized from your learning materials. Perfect for on-the-go studying.",
+      title: "Audio Summaries",
+      description: "Coming Soon: Listen to AI-generated audio summaries of your materials. Perfect for learning while commuting.",
       icon: Headphones,
       badge: "Coming Soon"
     },
     {
       title: "Audio/Video Direct Upload",
-      description: "Coming Soon: Upload your lectures, podcasts, or video content directly to generate comprehensive study materials and quizzes.",
+      description: "Coming Soon: Upload lecture recordings, podcasts, or videos directly to generate comprehensive study materials.",
       icon: Mic,
       badge: "Coming Soon"
     },
     {
       title: "Interactive Chat Interface",
-      description: "Coming Soon: Engage with a sophisticated chat system that allows you to discuss and query your study materials with proper citations.",
+      description: "Coming Soon: Chat with your materials to ask questions and receive answers with proper citations and explanations.",
       icon: MessageSquare,
       badge: "Coming Soon"
     }
@@ -53,15 +53,15 @@ export const Features = () => {
     <section id="features" className="py-20 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4">Advanced Study Features</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4">Powerful Study Features</h2>
           <p className="text-muted-foreground max-w-2xl">
-            NotemateAI transforms how you study with intelligent tools designed to enhance comprehension and retention.
+            Blackblue combines cutting-edge AI with proven learning techniques to help you study smarter, not harder.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {features.map((feature, index) => (
-            <div key={index} className="opacity-0 animate-fade-in" style={{ animationDelay: `${index * 100 + 100}ms`, animationFillMode: 'forwards' }}>
+            <div key={index} className="opacity-0 animate-fade-in feature-card-hover" style={{ animationDelay: `${index * 100 + 100}ms`, animationFillMode: 'forwards' }}>
               <FeatureCard
                 title={feature.title}
                 description={feature.description}
@@ -76,13 +76,13 @@ export const Features = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="opacity-0 animate-slide-in-left" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
               <h3 className="text-2xl md:text-3xl font-semibold mb-4">
-                PYQ Style Questions
+                Exam-Ready Question Generation
               </h3>
               <p className="text-muted-foreground mb-6">
-                Upload previous year questions (PYQ) and our advanced AI will generate new questions that match the same pattern and difficulty level.
+                Our AI analyzes previous exam patterns and creates questions that match real test formats. Perfect for standardized test prep and final exams.
               </p>
               <ul className="space-y-3">
-                {["Analyze question patterns", "Match complexity levels", "Generate similar questions", "Prepare more effectively"].map((item, i) => (
+                {["Matches exam question patterns", "Simulates real test conditions", "Covers all testable concepts", "Provides detailed explanations", "Tracks exam readiness"].map((item, i) => (
                   <li key={i} className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
@@ -95,7 +95,7 @@ export const Features = () => {
               <div className="glass rounded-xl overflow-hidden">
                 <AnimatedImage
                   src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Previous Year Questions Analysis"
+                  alt="Exam Question Analysis"
                   className="w-full rounded-lg"
                 />
               </div>

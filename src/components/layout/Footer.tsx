@@ -1,5 +1,4 @@
 
-import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
@@ -12,12 +11,11 @@ export const Footer = () => {
               <img 
                 src="/lovable-uploads/212f79a5-f3c6-48e2-ad0e-dc40072171e1.png" 
                 alt="Blackblue Logo" 
-                className="h-6" 
+                className="h-5" 
               />
             </Link>
             <p className="mt-4 text-muted-foreground max-w-md">
-              Generate quizzes in seconds from your learning materials. 
-              Perfect for students, teachers, and lifelong learners.
+              Transform how you learn with Blackblue's AI-powered study tools. Create quizzes instantly from your study materials and boost your retention.
             </p>
           </div>
           
@@ -59,6 +57,11 @@ export const Footer = () => {
                 <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Terms of Service
                 </Link>
+              </li>
+              <li>
+                <a href="mailto:support@blackblue.xyz" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Contact Support
+                </a>
               </li>
             </ul>
           </div>

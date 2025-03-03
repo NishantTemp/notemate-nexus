@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ChevronRight, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import AnimatedImage from "../ui-custom/AnimatedImage";
 import Badge from "../ui-custom/Badge";
 
@@ -11,22 +11,24 @@ export const Hero = () => {
       
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center">
-          <Badge className="mb-6 animate-fade-in">Introducing Blackblue</Badge>
+          <Badge className="mb-6 animate-fade-in">Revolutionary AI Study Tool</Badge>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight md:leading-tight lg:leading-tight max-w-4xl mx-auto mb-6 animate-fade-in animation-delay-100">
-            The Ultimate <span className="text-primary">AI-Powered</span> Study Companion
+            Transform <span className="text-primary">Any Content</span> Into Interactive Study Materials
           </h1>
           
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in animation-delay-200">
-            Transform YouTube videos, PDFs, and presentations into interactive quizzes and audio lectures. 
-            Maximize your learning potential with intelligent study tools.
+            Upload your PDFs, presentations, and YouTube videos. Blackblue instantly generates customized quizzes, 
+            audio summaries, and study aids that adapt to your learning style.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-6 animate-fade-in animation-delay-300">
-            <Button size="lg" className="btn-hover-effect">
-              Start Learning Smarter
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="btn-hover-effect">
+                Start Learning Smarter
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
           </div>
           
           <div className="flex items-center justify-center space-x-6 mb-16 animate-fade-in animation-delay-400">
@@ -38,7 +40,7 @@ export const Hero = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-sm ml-3"><span className="font-medium">1,000+</span> quizzes generated today</p>
+              <p className="text-sm ml-3"><span className="font-medium">2,500+</span> quizzes generated today</p>
             </div>
             <div className="hidden md:flex items-center">
               <div className="flex items-center text-yellow-500">
@@ -46,7 +48,7 @@ export const Hero = () => {
                   <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
                 ))}
               </div>
-              <p className="text-sm ml-2"><span className="font-medium">4.9/5</span> from 200+ reviews</p>
+              <p className="text-sm ml-2"><span className="font-medium">4.9/5</span> from 500+ reviews</p>
             </div>
           </div>
           
@@ -75,9 +77,11 @@ export const Hero = () => {
             
             <div className="absolute bottom-16 -left-6 md:left-16 animate-float animation-delay-1000">
               <div className="glass p-4 rounded-lg shadow-lg max-w-[180px]">
-                <div className="w-4 h-4 bg-primary rounded-full"></div>
-                <span className="text-sm font-medium">Audio Lecture</span>
-                <p className="text-xs text-muted-foreground mt-1">Coming Soon: Listen to AI-generated lectures on the go</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 bg-primary rounded-full"></div>
+                  <span className="text-sm font-medium">Audio Summary</span>
+                </div>
+                <p className="text-xs text-muted-foreground mt-1">Listen on-the-go to key concepts from your materials</p>
               </div>
             </div>
           </div>

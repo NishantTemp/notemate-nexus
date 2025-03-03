@@ -9,28 +9,28 @@ import {
 export const FAQ = () => {
   const faqs = [
     {
-      question: "How does NotemateAI generate quizzes?",
-      answer: "NotemateAI uses advanced artificial intelligence to analyze your learning materials - whether they're PDFs, slides, or YouTube videos. Our AI identifies key concepts, important facts, and critical relationships between ideas, then transforms them into targeted quiz questions designed to test your understanding and retention."
+      question: "How accurate are Blackblue's generated quizzes?",
+      answer: "Blackblue's AI has been trained on thousands of educational materials and employs advanced natural language processing to ensure high accuracy. Our quizzes extract key concepts, facts, and relationships from your content with over 95% accuracy based on user feedback. The system also continuously improves as more users utilize the platform."
     },
     {
-      question: "Can I customize the difficulty level of my quizzes?",
-      answer: "Yes! You can adjust the complexity of generated questions based on your learning needs. Whether you're just beginning to learn a subject or preparing for advanced examinations, NotemateAI can create questions that match your current skill level."
+      question: "Can I customize the types of questions generated?",
+      answer: "Absolutely! You can select from multiple question formats including multiple choice, true/false, short answer, and matching questions. You can also adjust the difficulty level from beginner to expert, and specify particular topics or sections to focus on within your learning materials."
     },
     {
-      question: "What does 'PYQ style questions' mean?",
-      answer: "PYQ (Previous Year Questions) style means that our AI can analyze the pattern, format, and difficulty level of past exam questions you upload, then generate new questions that follow the same structure. This is extremely valuable for exam preparation, as it helps you practice with questions similar to what you might encounter on your actual test."
+      question: "How does Blackblue help me identify knowledge gaps?",
+      answer: "Our sophisticated analytics engine tracks your performance across all quizzes and identifies patterns in your incorrect answers. The system creates a personalized knowledge map highlighting areas where you excel and topics that need more attention. You'll receive tailored recommendations for additional practice on challenging concepts."
     },
     {
-      question: "When will the audio lectures feature be available?",
-      answer: "We're actively developing our AI audio lectures feature, which will convert your study materials into clear, concise audio explanations. This feature is coming soon and will be available to all subscribers when released. Stay tuned for updates!"
+      question: "When will the audio summaries feature be available?",
+      answer: "Our audio summaries feature is currently in final beta testing and will be available to all subscribers within the next month. This feature will convert your learning materials into concise, easy-to-understand audio explanations perfect for review on the go."
     },
     {
-      question: "Can I use NotemateAI for group study or classroom settings?",
-      answer: "Absolutely! NotemateAI works great for both individual study and educational settings. Teachers and study group leaders can generate quizzes from course materials and share them with students. Our analytics can help track overall performance and identify concepts that need reinforcement."
+      question: "Can I use Blackblue for group study or classroom settings?",
+      answer: "Yes! Blackblue offers team accounts for study groups and classroom usage. Instructors can upload course materials to generate quizzes for the entire class, track student performance, and identify concepts that need additional instruction. Students can collaborate on quiz creation and share study materials within the platform."
     },
     {
-      question: "How do I cancel my subscription?",
-      answer: "You can cancel your subscription anytime from your account settings. Your access will continue until the end of your current billing period. We don't offer refunds for partial subscription periods, but you're welcome to continue using all features until your subscription ends."
+      question: "What's your refund policy?",
+      answer: "We offer a no-questions-asked 7-day refund policy for all new subscriptions. If you're not completely satisfied with Blackblue within your first week, simply contact our support team for a full refund. After this period, you can cancel anytime to prevent future billing, with access continuing until the end of your current payment cycle."
     }
   ];
 
@@ -40,7 +40,7 @@ export const FAQ = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">Frequently Asked Questions</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to know about NotemateAI and how it can enhance your learning experience.
+            Get answers to common questions about how Blackblue can transform your learning experience.
           </p>
         </div>
 
@@ -60,9 +60,9 @@ export const FAQ = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <p className="text-muted-foreground mb-4">Still have questions?</p>
-          <a href="mailto:support@notemateai.com" className="text-primary hover:underline">
-            Contact our support team
+          <p className="text-muted-foreground mb-4">Have more questions?</p>
+          <a href="mailto:support@blackblue.xyz" className="text-primary hover:underline">
+            Contact our support team for immediate assistance
           </a>
         </div>
       </div>
