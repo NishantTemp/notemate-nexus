@@ -35,9 +35,9 @@ export const Header = () => {
         <div className="flex items-center">
           <Link to="/" className="text-xl font-bold text-foreground flex items-center">
             <img 
-              src="/lovable-uploads/212f79a5-f3c6-48e2-ad0e-dc40072171e1.png" 
+              src="/lovable-uploads/47f84fd4-dd19-483f-878d-993510ca0fec.png" 
               alt="Blackblue Logo" 
-              className="h-4" 
+              className="h-6" 
             />
           </Link>
         </div>
