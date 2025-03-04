@@ -8,10 +8,10 @@ export const CallToAction = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-            Choose Your Learning Plan
+            Choose Your Plan
           </h2>
           <p className="text-muted-foreground max-w-2xl">
-            Select the plan that fits your study needs and unlock your full learning potential with Blackblue.
+            Select the plan that fits your study needs and experience Blackblue's quiz-generation technology.
           </p>
         </div>
         
@@ -24,25 +24,25 @@ export const CallToAction = () => {
                 <span className="text-3xl font-bold">$4</span>
                 <span className="text-muted-foreground">/week</span>
               </div>
-              <p className="text-sm text-muted-foreground mt-2">Perfect for exam prep and short-term projects</p>
+              <p className="text-sm text-muted-foreground mt-2">Best for short-term study needs</p>
             </div>
             
             <ul className="space-y-3 mt-6 mb-8">
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Unlimited quiz generation</span>
+                <span>Quiz generation from PDFs</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Up to 30 questions per quiz</span>
+                <span>Up to 20 questions per quiz</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Basic performance analytics</span>
+                <span>Standard quiz analytics</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>PDF, slides, and YouTube support</span>
+                <span>Support for slides and simple texts</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
@@ -52,7 +52,7 @@ export const CallToAction = () => {
             
             <a href="https://app.blackblue.xyz?plan=weekly" target="_blank" rel="noopener noreferrer">
               <Button className="w-full bg-primary hover:bg-primary/90 text-white font-medium">
-                Start Weekly Plan
+                Get Weekly Access
               </Button>
             </a>
           </div>
@@ -75,23 +75,23 @@ export const CallToAction = () => {
             <ul className="space-y-3 mt-6 mb-8">
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Unlimited quiz generation</span>
+                <span>Quiz generation from PDFs</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Up to 50 questions per quiz</span>
+                <span>Up to 30 questions per quiz</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Advanced performance analytics</span>
+                <span>Enhanced quiz performance tracking</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Priority access to new features</span>
+                <span>Early access to new features</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Customizable difficulty levels</span>
+                <span>Basic difficulty adjustment</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
@@ -101,18 +101,18 @@ export const CallToAction = () => {
             
             <a href="https://app.blackblue.xyz?plan=monthly" target="_blank" rel="noopener noreferrer">
               <Button className="w-full bg-primary hover:bg-primary/90 text-white font-medium">
-                Start Monthly Pro
+                Get Monthly Access
               </Button>
             </a>
           </div>
         </div>
         
         <div className="mt-20 max-w-5xl mx-auto text-center">
-          <h3 className="text-2xl font-semibold mb-6">Ready to transform how you learn?</h3>
-          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">Join thousands of students who are already using Blackblue to study smarter and achieve better results.</p>
+          <h3 className="text-2xl font-semibold mb-6">Start creating quizzes today</h3>
+          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">Join other students who are using Blackblue to create study quizzes from their materials.</p>
           <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-black hover:bg-black/90 text-white dark:bg-white dark:text-black dark:hover:bg-white/90 font-medium">
-              Try Blackblue Free for 7 Days
+              Try Blackblue Today
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </a>
