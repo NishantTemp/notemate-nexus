@@ -1,8 +1,8 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import AnimatedImage from "../ui-custom/AnimatedImage";
 import Badge from "../ui-custom/Badge";
+import QuizGeneratorDemo from "../ui-custom/QuizGeneratorDemo";
 
 export const Hero = () => {
   return (
@@ -46,15 +46,9 @@ export const Hero = () => {
           </div>
           
           <div className="relative w-full max-w-5xl mx-auto">
-            {/* Glass dashboard frame */}
-            <div className="glass rounded-2xl overflow-hidden shadow-2xl">
-              <AnimatedImage
-                src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Blackblue Dashboard"
-                className="w-full rounded-lg opacity-90"
-                animation="scale-in"
-                delay="animation-delay-500"
-              />
+            {/* Replace the glass dashboard frame with the interactive demo */}
+            <div className="glass rounded-2xl overflow-hidden shadow-2xl animate-fade-in animation-delay-500">
+              <QuizGeneratorDemo />
             </div>
           </div>
         </div>
