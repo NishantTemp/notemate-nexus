@@ -17,7 +17,7 @@ export const CallToAction = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Weekly Plan */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-xl p-8 border border-border shadow-lg transition-all duration-300 hover:shadow-xl hover:transform hover:scale-[1.02]">
+          <div className="pricing-card bg-white dark:bg-zinc-900 rounded-xl p-8 border border-border shadow-lg">
             <div className="text-center mb-6">
               <h3 className="text-2xl font-semibold">Weekly Pass</h3>
               <div className="mt-2">
@@ -51,14 +51,14 @@ export const CallToAction = () => {
             </ul>
             
             <a href="https://app.blackblue.xyz?plan=weekly" target="_blank" rel="noopener noreferrer">
-              <Button className="w-full btn-hover-effect">
+              <Button className="w-full bg-primary hover:bg-primary/90 text-white font-medium">
                 Start Weekly Plan
               </Button>
             </a>
           </div>
           
           {/* Monthly Plan */}
-          <div className="bg-gradient-to-br from-primary/10 via-accent/5 to-primary/5 rounded-xl p-8 border pricing-card-highlight shadow-lg relative overflow-hidden transition-all duration-300 hover:shadow-xl hover:transform hover:scale-[1.02]">
+          <div className="pricing-card pricing-card-highlight bg-gradient-to-br from-black/5 via-accent/5 to-black/5 dark:from-accent/10 dark:to-black/20 rounded-xl p-8 shadow-lg relative overflow-hidden">
             <div className="absolute -right-3 -top-3">
               <span className="inline-block py-1 px-3 rounded-md text-xs font-medium bg-primary text-primary-foreground">BEST VALUE</span>
             </div>
@@ -100,7 +100,7 @@ export const CallToAction = () => {
             </ul>
             
             <a href="https://app.blackblue.xyz?plan=monthly" target="_blank" rel="noopener noreferrer">
-              <Button className="w-full btn-hover-effect">
+              <Button className="w-full bg-primary hover:bg-primary/90 text-white font-medium">
                 Start Monthly Pro
               </Button>
             </a>
@@ -111,7 +111,7 @@ export const CallToAction = () => {
           <h3 className="text-2xl font-semibold mb-6">Ready to transform how you learn?</h3>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">Join thousands of students who are already using Blackblue to study smarter and achieve better results.</p>
           <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="btn-hover-effect cta-highlight">
+            <Button size="lg" className="bg-black hover:bg-black/90 text-white dark:bg-white dark:text-black dark:hover:bg-white/90 font-medium">
               Try Blackblue Free for 7 Days
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
