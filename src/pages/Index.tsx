@@ -35,7 +35,8 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted/30">
+    <div className="min-h-screen bg-background">
+      <div className="absolute top-0 left-0 right-0 h-[50vh] bg-gradient-radial from-primary/10 via-background/50 to-transparent opacity-70 pointer-events-none"></div>
       <Header />
       <main>
         <Hero />

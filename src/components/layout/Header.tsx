@@ -37,84 +37,84 @@ export const Header = () => {
             <img 
               src="/lovable-uploads/47f84fd4-dd19-483f-878d-993510ca0fec.png" 
               alt="Blackblue Logo" 
-              className="h-7 hover:opacity-90 transition-opacity" 
+              className="h-5 hover:opacity-90 transition-opacity" 
             />
           </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-10">
-          <a href="#features" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+          <a href="#features" className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors">
             Features
           </a>
-          <a href="#how-it-works" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+          <a href="#how-it-works" className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors">
             How It Works
           </a>
-          <a href="#pricing" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+          <a href="#pricing" className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors">
             Pricing
           </a>
-          <a href="#faq" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+          <a href="#faq" className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors">
             FAQ
           </a>
         </nav>
 
         <div className="hidden md:flex items-center">
           <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
-            <Button size="sm" className="btn-hover-effect rounded-full px-6">
-              Login to Dashboard <ArrowRight className="ml-1 h-4 w-4" />
+            <Button variant="outline" size="sm" className="rounded-full px-5 border-primary/20 bg-transparent hover:bg-primary/10 hover:text-primary">
+              Login <ArrowRight className="ml-1 h-3.5 w-3.5" />
             </Button>
           </a>
         </div>
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-foreground p-1"
+          className="md:hidden text-foreground/80 p-1"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (
-            <X className="h-6 w-6" />
+            <X className="h-5 w-5" />
           ) : (
-            <Menu className="h-6 w-6" />
+            <Menu className="h-5 w-5" />
           )}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-background/98 backdrop-blur-xl p-5 border-t border-border/30 shadow-lg">
-          <nav className="flex flex-col space-y-5 pt-2 pb-4">
+        <div className="md:hidden bg-background/98 backdrop-blur-xl p-4 border-t border-border/20 shadow-sm">
+          <nav className="flex flex-col space-y-4 pt-2 pb-3">
             <a
               href="#features"
-              className="text-foreground/80 hover:text-primary p-2 rounded-md transition-colors"
+              className="text-foreground/70 hover:text-primary p-2 rounded-md transition-colors text-sm"
               onClick={() => setMobileMenuOpen(false)}
             >
               Features
             </a>
             <a
               href="#how-it-works"
-              className="text-foreground/80 hover:text-primary p-2 rounded-md transition-colors"
+              className="text-foreground/70 hover:text-primary p-2 rounded-md transition-colors text-sm"
               onClick={() => setMobileMenuOpen(false)}
             >
               How It Works
             </a>
             <a
               href="#pricing"
-              className="text-foreground/80 hover:text-primary p-2 rounded-md transition-colors"
+              className="text-foreground/70 hover:text-primary p-2 rounded-md transition-colors text-sm"
               onClick={() => setMobileMenuOpen(false)}
             >
               Pricing
             </a>
             <a
               href="#faq"
-              className="text-foreground/80 hover:text-primary p-2 rounded-md transition-colors"
+              className="text-foreground/70 hover:text-primary p-2 rounded-md transition-colors text-sm"
               onClick={() => setMobileMenuOpen(false)}
             >
               FAQ
             </a>
             <div className="pt-2">
               <a href="https://app.blackblue.xyz" target="_blank" rel="noopener noreferrer">
-                <Button className="w-full justify-center rounded-full">
-                  Login to Dashboard <ArrowRight className="ml-1 h-4 w-4" />
+                <Button variant="outline" className="w-full justify-center rounded-full text-sm">
+                  Login <ArrowRight className="ml-1 h-3.5 w-3.5" />
                 </Button>
               </a>
             </div>
