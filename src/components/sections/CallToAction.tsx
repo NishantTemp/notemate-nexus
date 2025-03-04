@@ -21,7 +21,7 @@ export const CallToAction = () => {
             <div className="text-center mb-6">
               <h3 className="text-2xl font-semibold">Weekly Pass</h3>
               <div className="mt-2">
-                <span className="text-3xl font-bold">$4</span>
+                <span className="text-3xl font-bold">$4.99</span>
                 <span className="text-muted-foreground">/week</span>
               </div>
               <p className="text-sm text-muted-foreground mt-2">Best for short-term study needs</p>
@@ -30,19 +30,15 @@ export const CallToAction = () => {
             <ul className="space-y-3 mt-6 mb-8">
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Quiz generation from PDFs</span>
+                <span>Quiz generation from PDFs/Slides and Youtube Videos</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Up to 20 questions per quiz</span>
+                <span>Choose between 10-20-30 questions per quiz</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Standard quiz analytics</span>
-              </li>
-              <li className="flex items-start">
-                <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Support for slides and simple texts</span>
+                <span>Upto 10 Quizzes per week</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
@@ -66,7 +62,7 @@ export const CallToAction = () => {
             <div className="text-center mb-6">
               <h3 className="text-2xl font-semibold">Monthly Pro</h3>
               <div className="mt-2">
-                <span className="text-3xl font-bold">$9</span>
+                <span className="text-3xl font-bold">$9.99</span>
                 <span className="text-muted-foreground">/month</span>
               </div>
               <p className="text-sm text-muted-foreground mt-2">Save 44% compared to weekly plan</p>
@@ -75,23 +71,15 @@ export const CallToAction = () => {
             <ul className="space-y-3 mt-6 mb-8">
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Quiz generation from PDFs</span>
+                <span>Quiz generation from PDFs/Slides and Youtube</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Up to 30 questions per quiz</span>
+                <span>Choose between 10-20-30 questions per quiz</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Enhanced quiz performance tracking</span>
-              </li>
-              <li className="flex items-start">
-                <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Early access to new features</span>
-              </li>
-              <li className="flex items-start">
-                <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
-                <span>Basic difficulty adjustment</span>
+                <span>Upto 15 Quizz per week</span>
               </li>
               <li className="flex items-start">
                 <Check className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />

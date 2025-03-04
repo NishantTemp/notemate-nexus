@@ -11,7 +11,7 @@ export const Hero = () => {
       
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center">
-          <Badge className="mb-6 animate-fade-in">Revolutionary AI Study Tool</Badge>
+          <Badge className="mb-6 animate-fade-in">Perfect AI Study Tool</Badge>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight md:leading-tight lg:leading-tight max-w-4xl mx-auto mb-6 animate-fade-in animation-delay-100">
             Transform <span className="text-primary">Any Content</span> Into Interactive Study Materials
@@ -62,27 +62,6 @@ export const Hero = () => {
                 animation="scale-in"
                 delay="animation-delay-500"
               />
-            </div>
-            
-            {/* Floating elements */}
-            <div className="absolute top-16 -right-6 md:right-16 animate-float animation-delay-700">
-              <div className="glass p-4 rounded-lg shadow-lg max-w-[180px]">
-                <div className="flex items-center gap-2 mb-2">
-                  <div className="w-4 h-4 bg-green-500 rounded-full"></div>
-                  <span className="text-sm font-medium">Quiz Generated</span>
-                </div>
-                <p className="text-xs text-muted-foreground">20 questions created from your PDF</p>
-              </div>
-            </div>
-            
-            <div className="absolute bottom-16 -left-6 md:left-16 animate-float animation-delay-1000">
-              <div className="glass p-4 rounded-lg shadow-lg max-w-[180px]">
-                <div className="flex items-center gap-2">
-                  <div className="w-4 h-4 bg-primary rounded-full"></div>
-                  <span className="text-sm font-medium">Audio Summary</span>
-                </div>
-                <p className="text-xs text-muted-foreground mt-1">Listen on-the-go to key concepts from your materials</p>
-              </div>
             </div>
           </div>
         </div>

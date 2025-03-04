@@ -13,24 +13,16 @@ export const FAQ = () => {
       answer: "Blackblue's AI has been trained on thousands of educational materials and employs advanced natural language processing to ensure high accuracy. Our quizzes extract key concepts, facts, and relationships from your content with over 95% accuracy based on user feedback. The system also continuously improves as more users utilize the platform."
     },
     {
-      question: "Can I customize the types of questions generated?",
-      answer: "Absolutely! You can select from multiple question formats including multiple choice, true/false, short answer, and matching questions. You can also adjust the difficulty level from beginner to expert, and specify particular topics or sections to focus on within your learning materials."
+      question: "When will the audio lecture feature be available?",
+      answer: "Our audio lecture feature is currently in works and will be available to all subscribers shortly. This feature will convert your learning materials into concise, easy-to-understand audio explanations perfect for review on the go."
     },
     {
-      question: "How does Blackblue help me identify knowledge gaps?",
-      answer: "Our sophisticated analytics engine tracks your performance across all quizzes and identifies patterns in your incorrect answers. The system creates a personalized knowledge map highlighting areas where you excel and topics that need more attention. You'll receive tailored recommendations for additional practice on challenging concepts."
-    },
-    {
-      question: "When will the audio summaries feature be available?",
-      answer: "Our audio summaries feature is currently in final beta testing and will be available to all subscribers within the next month. This feature will convert your learning materials into concise, easy-to-understand audio explanations perfect for review on the go."
-    },
-    {
-      question: "Can I use Blackblue for group study or classroom settings?",
-      answer: "Yes! Blackblue offers team accounts for study groups and classroom usage. Instructors can upload course materials to generate quizzes for the entire class, track student performance, and identify concepts that need additional instruction. Students can collaborate on quiz creation and share study materials within the platform."
+      question: "How can i discontinue my subscription?",
+      answer: "You can discontinue the subscription from the profile section and it would discontinue it from the next billing cycle."
     },
     {
       question: "What's your refund policy?",
-      answer: "We offer a no-questions-asked 7-day refund policy for all new subscriptions. If you're not completely satisfied with Blackblue within your first week, simply contact our support team for a full refund. After this period, you can cancel anytime to prevent future billing, with access continuing until the end of your current payment cycle."
+      answer: "We offer a no-questions-asked 2-day refund policy for all new subscriptions. If you're not completely satisfied with Blackblue within your 2 days, simply contact our support team for a full refund. After this period, you can cancel anytime to prevent future billing, with access continuing until the end of your current payment cycle."
     }
   ];
 
