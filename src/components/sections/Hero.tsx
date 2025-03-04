@@ -42,14 +42,7 @@ export const Hero = () => {
               </div>
               <p className="text-sm ml-3"><span className="font-medium">2,500+</span> quizzes generated today</p>
             </div>
-            <div className="hidden md:flex items-center">
-              <div className="flex items-center text-yellow-500">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
-                ))}
-              </div>
-              <p className="text-sm ml-2"><span className="font-medium">4.9/5</span> from 500+ reviews</p>
-            </div>
+            {/* Removed the stars and ratings section that was here */}
           </div>
           
           <div className="relative w-full max-w-5xl mx-auto">
